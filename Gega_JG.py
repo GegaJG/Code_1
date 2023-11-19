@@ -25,7 +25,15 @@ def list_elements() :
 
 
 def list_generator(a) :
-    pass
+    
+    
+    list_1=[]
+
+    for i in range(a) :
+
+        list_1.append(input(f"Enter {i+1} element :"))
+
+    print('List is generated :',list_1)
 
 
 list_elements()
