@@ -35,5 +35,7 @@ def list_generator(a) :
 
     print('List is generated :',list_1)
 
+    print(f"\n{'-'*12}\nBye bye!")
+
 
 list_elements()
